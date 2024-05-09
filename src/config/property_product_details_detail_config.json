@@ -1,0 +1,61 @@
+{
+
+"property": [
+    {
+        "key": "PropId",
+        "type": "keyid"
+    }
+    
+    ,{
+        "key": "Title",
+        "label": "Title",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Description2",
+        "label": "Description2",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Address",
+        "label": "Address",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "PropDetails",
+        "label": "PropDetails",
+        "type": "dropdown",
+        "valueId": "Value",
+        "nameId": "Name",
+        "contentId": "Name",
+        "source": "Details",
+        "editable": true,
+        "validators": [
+             "isNumber"
+        ]
+                            }
+    false
+    ,{
+        "key": "PropertyMainImage",
+        "label": "MainImage",
+        "type": "dropdown",
+        "valueId": "DocId",
+        "nameId": "FileName",
+        "contentId": "FileName",
+        "source": "Document",
+        "create": true,
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+]
+}
